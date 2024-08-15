@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.header .link {
+  border: 1px solid hsl(322, 100%, 66%);
+  width: auto;
+  padding: 10px 30px;
+  border-radius: 25px;
+  box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header .link a {
+  color: hsl(322, 100%, 66%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container .build {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.build h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+
+.build .para {
+  font-size: 1rem;
+  width: 40%;
+  text-align: center;
+  line-height: 1.2;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+
+.build .link, .ready .link {
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  width: 25%;
+  background-color: hsl(322, 100%, 66%);
+  text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.build .link a, .ready .link a {
+  color: white;
+  font-weight: 600;
+}
+
+.build .mockup {
+  padding: 5rem 0;
+}
+
+.build .overall {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+}
+
+.build .overall .data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.overall .data img {
+  width: 40px;
+}
+
+.overall .data .number {
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.overall .data p:last-child {
+  font-size: 1.2rem;
+  color: hsla(210, 1%, 67%, 0.9);
+}
+
+.container .block {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block .info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  color: hsl(192, 100%, 9%);
+  width: 40%;
+}
+
+.block img {
+  width: 40%;
+}
+
+.block .info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.block .info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.grow, .users {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.convo {
+  flex-direction: row-reverse;
+}
+
+.container .ready {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.ready h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: hsl(192, 100%, 9%);
+  padding: 2rem 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+footer .about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 2rem 0;
+}
+
+.about .logo {
+  width: 40%;
+  filter: brightness(0) invert(1);
+}
+
+.about p {
+  margin-right: 40%;
+  line-height: 1.3;
+  font-size: 1rem;
+}
+
+.about .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacts p img {
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.about .socials {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 20%;
+  margin: 2rem 0;
+}
+
+.socials .icon{
+  font-size: 1rem;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  color: hsl(192, 100%, 9%);
+}
+
+.socials .fb {
+  padding-left: 10px;
+}
+
+.socials .ig {
+  font-size: 1.7rem;
+}
+
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 2rem 0;
+}  
+
+.newsletter h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.newsletter p {
+  margin-right: 40%;
+  line-height: 1.3;
+  font-size: 1rem;
+}
+
+.newsletter .form-container {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.form-container input[type="email"] {
+  width: 55%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.form-container button {
+  padding: 10px;
+  width: 25%;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  outline: none;
+}
+
+.header .link:hover {
+  border: 1px solid hsl(321, 100%, 78%);
+  cursor: pointer;
+}
+
+.header .link a:hover {
+  color: hsl(321, 100%, 78%);
+}
+
+.build .link:hover,
+.ready .link:hover {
+  background-color: hsl(321, 100%, 78%);
+  cursor: pointer;
+}
+
+form input[type="email"]:hover {
+  border: 1px solid hsl(0, 100%, 63%);
+  cursor: pointer;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: hsl(321, 100%, 78%);
+}
+
+.socials i:hover {
+  cursor: pointer;
+}
+
+.socials .icon:hover {
+  background-color: rgb(64, 198, 243);
+}
+
+.socials .ig:hover {
+  color: rgb(64, 198, 243);
+}
+
+.container .top-image1 {
+  width: 100%;
+  height: 150px;
+  background: url(./images/bg-section-top-desktop-1.svg) no-repeat;
+}
+
+.container .bottom-image1 {
+  width: 100%;
+  height: 150px;
+  background: url(./images/bg-section-bottom-desktop-1.svg) no-repeat;
+}
+
+.container .top-image2 {
+  width: 100%;
+  height: 150px;
+  background: url(./images/bg-section-top-desktop-2.svg) no-repeat;
+}
+
+.container .bottom-image2 {
+  width: 100%;
+  height: 150px;
+  background: url(./images/bg-section-bottom-desktop-2.svg) no-repeat;
+}
+
+.footer-top-image {
+  width: 100%;
+  height: 150px;
+  background: url(./images/bg-footer-top-desktop.svg) no-repeat;
+}
+
+.attribution { 
+  width: 100%;
+  font-size: 4px; 
+  text-align: left; 
+  position: relative;
+  bottom: 0;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px) {
+  .container .header {
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .header .logo {
+    width: 100px;
+    height: 20px;
+  }
+
+  .header .link {
+    padding: 5px 20px;
+  }
+
+  .container .build {
+    padding: 2rem;
+  }
+
+  .build h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .build .para {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .build .link, .ready .link {
+    padding: 10px;
+    width: 65%;
+  }
+
+  .build .mockup {
+    width: 100%;
+  }
+
+  .build .overall {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .overall .data img {
+    width: 20px;
+  }
+
+  .overall .data .number {
+    font-size: 3rem;
+  }
+
+  .overall .data p {
+    font-size: 1rem;
+  }
+
+  .container .block {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .block .info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .block img {
+    width: 90%;
+  }
+
+  .block .info h2 {
+    font-size: 1.5rem;
+  }
+  
+  .block .info p {
+    font-size: 1rem;
+  }
+
+  .container .top-image1 {
+    height: 110px;
+    background: url(./images/bg-section-top-mobile-1.svg) no-repeat;
+  }
+  
+  .container .bottom-image1 {
+    background: url(./images/bg-section-bottom-mobile-1.svg) no-repeat;
+  }
+  
+  .container .top-image2 {
+    height: 100px;
+    background: url(./images/bg-section-top-mobile-2.svg) no-repeat;
+  }
+  
+  .container .bottom-image2 {
+    height: 100px;
+    background: url(./images/bg-section-bottom-mobile-2.svg) no-repeat;
+  }
+
+  .container .ready {
+    padding: 5rem 2rem;
+    gap: 2rem;
+  }
+  
+  .ready h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-top-image {
+    height: 50px;
+    background: url(./images/bg-footer-top-mobile.svg) no-repeat;
+  }
+
+  footer {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    gap: 5rem;
+  }
+
+  footer .about {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about .logo {
+    width: 60%;
+  }
+  
+  .about p {
+    margin-right: 0;
+  }
+
+  .about .socials {
+    width: 30%;
+  }
+
+  footer .newsletter {
+    width: 100%;
+    padding: 0;
+  }  
+  
+  .newsletter h2 {
+    font-size: 1.2rem;
+  }
+  
+  .newsletter p {
+    margin-right: 0;
+  }
+
+  .newsletter .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .form-container input[type="email"] {
+    width: 100%;
+  }
+
+  .form-container button {
+    width: 50%;
+  }
+}
